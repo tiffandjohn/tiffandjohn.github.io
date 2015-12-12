@@ -44,3 +44,9 @@ h1 span {
 h2 {
 	letter-spacing:1.9px;
 }
+
+@media screen and (max-width:480px) {
+	header {
+		right:15px;
+	}
+}
