@@ -1,0 +1,46 @@
+html, body {
+	width:100%;
+	height:100%;
+}
+body {
+	font-size:20px;
+	font-family: 'Quicksand', sans-serif;
+	background-color:#000;
+}
+section {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.frame {
+	opacity:0;
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position:center;
+	-webkit-transition: opacity 2s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-moz-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-o-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-ms-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+.frame.loaded {
+	opacity:1;
+}
+header {
+	position:absolute;
+	bottom:50px;
+	right: 50px;
+	color:#fff;
+	z-index:1;
+}
+h1 {
+	font-size:1.5em;
+	margin-bottom:3px;
+}
+h1 span {
+	padding-left:2px;
+}
+h2 {
+	letter-spacing:1.9px;
+}
