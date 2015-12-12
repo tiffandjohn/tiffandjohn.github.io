@@ -18,11 +18,11 @@ section {
 	height:100%;
 	background-size:cover;
 	background-position:center;
-	-webkit-transition: opacity 2s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-	-moz-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-	-o-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-	-ms-transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-	transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-webkit-transition: opacity 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-moz-transition: opacity 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-o-transition: opacity 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	-ms-transition: opacity 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+	transition: opacity 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
 }
 .frame.loaded {
 	opacity:1;
